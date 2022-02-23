@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+
+.grid {
+    border: 1px solid black;
+    height: 16px;
+    width: 16px;
+}
+
+#container {
+    display: grid;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    column-gap: 0px;
+    row-gap: 0px;
+    margin: 20px;
+}
+
+.filled {
+    background-color: black;
+}
+
